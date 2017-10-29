@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbindings.ProtobufNano.Droid", "Xbindings.ProtobufNano.Droid\Xbindings.ProtobufNano.Droid.csproj", "{6D9F9193-83E2-46DD-AFE5-EB4B2503053E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{FBF80DE7-0EB2-40D7-9B6D-DAE9050D2A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtobufNanoQs", "demo\ProtobufNanoQs\ProtobufNanoQs.csproj", "{337AC02B-48DA-4901-A116-33F7437D7FA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,12 @@ Global
 		{6D9F9193-83E2-46DD-AFE5-EB4B2503053E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D9F9193-83E2-46DD-AFE5-EB4B2503053E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D9F9193-83E2-46DD-AFE5-EB4B2503053E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337AC02B-48DA-4901-A116-33F7437D7FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337AC02B-48DA-4901-A116-33F7437D7FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337AC02B-48DA-4901-A116-33F7437D7FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337AC02B-48DA-4901-A116-33F7437D7FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{337AC02B-48DA-4901-A116-33F7437D7FA1} = {FBF80DE7-0EB2-40D7-9B6D-DAE9050D2A37}
 	EndGlobalSection
 EndGlobal

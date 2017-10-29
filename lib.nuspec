@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Xbindings.ProtobufNano.Droid</id>
+        <version>3.1.0</version>
+        <authors>XBindings</authors>
+        <owners>XBindings</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Protobuf Nano for Android</title>
+        <summary>Xamarin.Android binding library - Protobuf Nano</summary>
+        <description>Xamarin.Android binding library - Protobuf Nano</description>
+        <releaseNotes>Protobuf Nano v3.1.0</releaseNotes>
+        <iconUrl>https://avatars2.githubusercontent.com/u/33067929</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/xbindings/protobufnano-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 XBindings</copyright>
+        <tags>Xamarin.Android, xamarin, xamarin-android, protobuf, protobuf-nano, protobuf.nano</tags>
+        <dependencies>
+            <!-- <dependency id="Xamarin.Android.Support.Annotations" version="25.4.0.2" />
+            <dependency id="Xamarin.Android.Support.Design" version="25.4.0.2" />
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.4.0.2" /> -->
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Xbindings.ProtobufNano.Droid/bin/Release/Xbindings.ProtobufNano.Droid.dll" target="lib/MonoAndroid10/Xbindings.ProtobufNano.Droid.dll" />
+    </files>
+</package>
